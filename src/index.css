@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* styles.css or a similar file */
+.aside-bg {
+  background-image: url('../public/bg-001.png') !important;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Rounded pill style for carousel indicators */
+.carousel-indicators [data-bs-target] {
+  width: 8px; /* Width of the pill */
+  height: 8px; /* Height of the pill */
+  border-radius: 50%; /* Makes it circular */
+  background-color: #fff; /* Color for the indicator */
+  opacity: 0.5; /* Default opacity */
+  transition: opacity 0.3s;
+}
+
+.carousel-indicators [data-bs-target].active {
+  width: 9px; /* Slightly larger for the active indicator */
+  height: 9px;
+  opacity: 1; /* Full opacity for active */
+  background-color: #007bff; /* Custom color for the active pill */
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Shaving Machine Km-6330",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/7e06b78974b4e72ca52c291745720f54.jpg_400x400q80.jpg",
+    "price": 1529,
+    "originalPrice": 2550,
+    "discount": 40
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone X - 256GB",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/a414aa5751fef418d4a04e66647ea254.jpg_400x400q80.jpg",
+    "price": 66814,
+    "originalPrice": 118999,
+    "discount": 44
+  },
+  {
+    "id": 3,
+    "name": "AirPods Pro i12 & i7s",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/92a5f0c2205bed72e20e83c113e80b9b.jpg_400x400q80.jpg",
+    "price": 729,
+    "originalPrice": 1999,
+    "discount": 64
+  },
+  {
+    "id": 4,
+    "name": "M10 Air-Buds Wireless",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/83b27b1d5b7fa13257a56816853a5441.png_400x400q80.png",
+    "price": 686,
+    "originalPrice": 2999,
+    "discount": 77
+  },
+  {
+    "id": 5,
+    "name": "Air buds Air 31 ",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/8ce19615d0a32b1419d273079add7cb2.png_400x400q80.png",
+    "price": 888,
+    "originalPrice": 3999,
+    "discount": 78
+  },
+  {
+    "id": 6,
+    "name": "Air buds/ Bluetooth ",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/7bbc45a77f49bddd00747529f8dca006.jpg_400x400q80.jpg",
+    "price": 613,
+    "originalPrice": 1999,
+    "discount": 69
+  }
+]
