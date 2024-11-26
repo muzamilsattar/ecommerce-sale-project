@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Carosel() {
   return (
-    <div className="flex flex-col md:flex-row mt-1 mx-3">
+    <div className="flex flex-col md:flex-row mt-2 mx-3">
       {/* Carousel Section */}
       <div className="w-full md:w-3/4">
         <Carousel data-bs-theme="dark">
@@ -10,7 +10,7 @@ function Carosel() {
             <Carousel.Item key={i}>
               <img
                 className="d-block w-100"
-                src={`/public/${i + 1}.jpg`}
+                src={`${i + 1}.jpg`}
                 alt={`Slide ${i + 1}`}
               />
             </Carousel.Item>
@@ -19,12 +19,12 @@ function Carosel() {
       </div>
 
       {/* Side Section */}
-      <div className=" md:w-1/4 mt-1 md:mt-0 md:ml-4 flex justify-center">
+      <div className=" md:w-1/4  md:mt-0 md:ml-4 flex justify-center">
         <div className="flex flex-col items-center bg-[#ffeada] w-full max-w-xs p-2 rounded-lg shadow-md">
           {/* App Promotion Section */}
           <div className="flex items-center justify-center bg-transparent mb-3">
             <img
-              src="/public/sm-logo.jpg"
+              src="sm-logo.jpg"
               alt="Daraz logo"
               className="object-contain w-8 h-8 mr-2"
             />
@@ -79,18 +79,10 @@ function Carosel() {
 
           {/* QR Code and App Links */}
           <div className="flex items-center justify-center gap-2">
-            <img src="/public/qr.jpg" alt="QR Code" className="w-20" />
+            <img src="qr.jpg" alt="QR Code" className="w-20" />
             <div className="flex flex-col items-center gap-2">
-              <img
-                src="/public/iphone.png"
-                alt="iOS Download"
-                className="w-24"
-              />
-              <img
-                src="/public/android.png"
-                alt="Android Download"
-                className="w-24"
-              />
+              <img src="iphone.png" alt="iOS Download" className="w-24" />
+              <img src="android.png" alt="Android Download" className="w-24" />
             </div>
           </div>
         </div>

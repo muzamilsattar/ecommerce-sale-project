@@ -57,7 +57,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <img
               className="w-24 sm:w-28 md:w-32 lg:w-36"
-              src="/public/logo.png"
+              src="logo.png"
               alt="Logo"
             />
           </div>
